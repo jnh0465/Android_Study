@@ -19,4 +19,9 @@
         android:layout_height="wrap_content"
         android:text="체크박스" />
 
+    <Button
+        android:id="@+id/button_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="프로그래스" />
 </LinearLayout>

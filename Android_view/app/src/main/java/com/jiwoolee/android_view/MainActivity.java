@@ -34,6 +34,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button button_progressbar = (Button) findViewById(R.id.button_progressbar);
+        button_progressbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, ProgressbarActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     /*
