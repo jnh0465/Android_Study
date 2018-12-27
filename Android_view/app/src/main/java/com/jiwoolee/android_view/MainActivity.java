@@ -43,6 +43,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button button_seekbar = (Button) findViewById(R.id.button_seekbar);
+        button_seekbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, SeekbarActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     /*

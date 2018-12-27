@@ -11,17 +11,23 @@
         android:id="@+id/button_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="버튼" />
+        android:text="Button" />
 
     <Button
         android:id="@+id/button_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="체크박스" />
+        android:text="Checkbox" />
 
     <Button
         android:id="@+id/button_progressbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="프로그래스" />
+        android:text="Progressbar" />
+
+    <Button
+        android:id="@+id/button_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seekbar" />
 </LinearLayout>
