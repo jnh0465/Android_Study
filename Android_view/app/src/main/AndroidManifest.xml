@@ -23,6 +23,8 @@
         </activity>
         <activity android:name=".SeekbarActivity">
         </activity>
+        <activity android:name=".EdittextActivity">
+        </activity>
     </application>
 
 </manifest>

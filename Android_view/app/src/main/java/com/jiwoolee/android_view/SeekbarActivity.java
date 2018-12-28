@@ -44,7 +44,7 @@ public class SeekbarActivity extends AppCompatActivity {
         seek2.setProgress(3);
     }
 
-    //
+    //값가져오기
     public void btn11Method(View view){
         int value1 = seek1.getProgress();
         int value2 = seek2.getProgress();
