@@ -1,4 +1,4 @@
-package com.jiwoolee.android_view;
+package com.jiwoolee.android_view.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+import com.jiwoolee.android_view.R;
 
 public class SeekbarActivity extends AppCompatActivity {
     SeekBar seek1, seek2;
@@ -17,6 +19,7 @@ public class SeekbarActivity extends AppCompatActivity {
         setContentView(R.layout.activity_seekbar);
 
         seek1 = (SeekBar)findViewById(R.id.seekBar);
+
         seek2 = (SeekBar)findViewById(R.id.seekBar2);
         text1 = (TextView) findViewById(R.id.textView);
         text2 = (TextView) findViewById(R.id.textView2);

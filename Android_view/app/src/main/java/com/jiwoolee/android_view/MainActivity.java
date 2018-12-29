@@ -3,12 +3,17 @@ package com.jiwoolee.android_view;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.TextView;
-import android.widget.Toast;
+
+import com.jiwoolee.android_view.adapterview.CustomlistviewActivity;
+import com.jiwoolee.android_view.adapterview.CustomlistviewActivity2;
+import com.jiwoolee.android_view.view.ButtonActivity;
+import com.jiwoolee.android_view.view.CheckboxActivity;
+import com.jiwoolee.android_view.view.EdittextActivity;
+import com.jiwoolee.android_view.view.ImageviewActivity;
+import com.jiwoolee.android_view.view.ProgressbarActivity;
+import com.jiwoolee.android_view.view.SeekbarActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -67,6 +72,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, ImageviewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_costomlistview = (Button) findViewById(R.id.button_costomlistview);
+        button_costomlistview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, CustomlistviewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_costomlistview2 = (Button) findViewById(R.id.button_costomlistview2);
+        button_costomlistview2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, CustomlistviewActivity2.class);
                 startActivity(intent);
             }
         });

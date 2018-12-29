@@ -15,17 +15,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ButtonActivity">
+        <activity android:name=".view.ButtonActivity">
         </activity>
-        <activity android:name=".CheckboxActivity">
+        <activity android:name=".view.CheckboxActivity">
         </activity>
-        <activity android:name=".ProgressbarActivity">
+        <activity android:name=".view.ProgressbarActivity">
         </activity>
-        <activity android:name=".SeekbarActivity">
+        <activity android:name=".view.SeekbarActivity">
         </activity>
-        <activity android:name=".EdittextActivity">
+        <activity android:name=".view.EdittextActivity">
         </activity>
-        <activity android:name=".ImageviewActivity">
+        <activity android:name=".view.ImageviewActivity">
+        </activity>
+        <activity android:name=".adapterview.CustomlistviewActivity">
+        </activity>
+        <activity android:name=".adapterview.CustomlistviewActivity2">
         </activity>
     </application>
 

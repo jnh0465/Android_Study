@@ -1,4 +1,4 @@
-package com.jiwoolee.android_view;
+package com.jiwoolee.android_view.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.jiwoolee.android_view.R;
 
 public class ProgressbarActivity extends AppCompatActivity {
     ProgressBar bar4;

@@ -1,10 +1,12 @@
-package com.jiwoolee.android_view;
+package com.jiwoolee.android_view.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.jiwoolee.android_view.R;
 
 public class ButtonActivity extends AppCompatActivity {
     TextView text1;
