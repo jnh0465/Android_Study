@@ -61,6 +61,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button button_imageview = (Button) findViewById(R.id.button_imageview);
+        button_imageview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, ImageviewActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     /*

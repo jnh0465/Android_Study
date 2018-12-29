@@ -6,4 +6,6 @@
 `ProgressbarActivity`<br>
 ![](https://user-images.githubusercontent.com/38582562/50469688-e62caf80-09f0-11e9-8fab-922d8218304a.gif)<br><br>
 `SeekbarActivity`<br>
-![](https://user-images.githubusercontent.com/38582562/50469689-e75ddc80-09f0-11e9-8c82-ced2415acfbf.gif)
+![](https://user-images.githubusercontent.com/38582562/50469689-e75ddc80-09f0-11e9-8c82-ced2415acfbf.gif)<br><br>
+`EdittextActivity`<br>
+![](https://user-images.githubusercontent.com/38582562/50499627-7ec53d00-0a8e-11e9-98c6-1209803af84d.gif)
