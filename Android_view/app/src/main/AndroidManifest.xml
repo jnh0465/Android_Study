@@ -31,6 +31,8 @@
         </activity>
         <activity android:name=".adapterview.CustomlistviewActivity2">
         </activity>
+        <activity android:name=".adapterview.TwolinelistviewActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity;
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity2;
+import com.jiwoolee.android_view.adapterview.TwolinelistviewActivity;
 import com.jiwoolee.android_view.view.ButtonActivity;
 import com.jiwoolee.android_view.view.CheckboxActivity;
 import com.jiwoolee.android_view.view.EdittextActivity;
@@ -93,6 +94,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button button_twoline = (Button) findViewById(R.id.button_twoline);
+        button_twoline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, TwolinelistviewActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     /*
