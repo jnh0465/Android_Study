@@ -33,6 +33,8 @@
         </activity>
         <activity android:name=".adapterview.TwolinelistviewActivity">
         </activity>
+        <activity android:name=".adapterview.CustomadaptActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.jiwoolee.android_view.adapterview.CustomadaptActivity;
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity;
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity2;
 import com.jiwoolee.android_view.adapterview.TwolinelistviewActivity;
@@ -104,6 +105,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button button_customadpater = (Button) findViewById(R.id.button_customadpater);
+        button_customadpater.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, CustomadaptActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     /*
