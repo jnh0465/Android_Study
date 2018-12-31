@@ -37,6 +37,8 @@
         </activity>
         <activity android:name=".adapterview.SpinnerActivity">
         </activity>
+        <activity android:name=".adapterview.ViewpagerActivity">
+        </activity>
     </application>
 
 </manifest>

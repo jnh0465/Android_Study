@@ -11,6 +11,7 @@ import com.jiwoolee.android_view.adapterview.CustomlistviewActivity;
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity2;
 import com.jiwoolee.android_view.adapterview.SpinnerActivity;
 import com.jiwoolee.android_view.adapterview.TwolinelistviewActivity;
+import com.jiwoolee.android_view.adapterview.ViewpagerActivity;
 import com.jiwoolee.android_view.view.ButtonActivity;
 import com.jiwoolee.android_view.view.CheckboxActivity;
 import com.jiwoolee.android_view.view.EdittextActivity;
@@ -120,6 +121,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, SpinnerActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_viewpager = (Button) findViewById(R.id.button_viewpager);
+        button_viewpager.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, ViewpagerActivity.class);
                 startActivity(intent);
             }
         });
