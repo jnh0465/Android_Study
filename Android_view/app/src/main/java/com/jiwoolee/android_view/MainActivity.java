@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.jiwoolee.android_view.adapterview.CustomadaptActivity;
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity;
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity2;
+import com.jiwoolee.android_view.adapterview.SpinnerActivity;
 import com.jiwoolee.android_view.adapterview.TwolinelistviewActivity;
 import com.jiwoolee.android_view.view.ButtonActivity;
 import com.jiwoolee.android_view.view.CheckboxActivity;
@@ -110,6 +111,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, CustomadaptActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_spinner = (Button) findViewById(R.id.button_spinner);
+        button_spinner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, SpinnerActivity.class);
                 startActivity(intent);
             }
         });

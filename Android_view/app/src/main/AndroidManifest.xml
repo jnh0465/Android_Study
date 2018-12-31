@@ -35,6 +35,8 @@
         </activity>
         <activity android:name=".adapterview.CustomadaptActivity">
         </activity>
+        <activity android:name=".adapterview.SpinnerActivity">
+        </activity>
     </application>
 
 </manifest>
