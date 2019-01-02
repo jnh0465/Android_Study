@@ -27,3 +27,13 @@ ___
 `Spinner-----------------------------------------Viewpager---------------------------------------`<br>
 ![11spinner](https://user-images.githubusercontent.com/38582562/50557678-ce279980-0d2a-11e9-8f12-c0b6ad8f14cc.gif)
 ![12viewpager](https://user-images.githubusercontent.com/38582562/50557679-ce279980-0d2a-11e9-91e0-06a90747621e.gif)
+___
+#menu
+-
+`Optionmenu--------------------------------------Contextmenu-------------------------------------`<br>
+![13optionmenu](https://user-images.githubusercontent.com/38582562/50581427-f59e7380-0e9c-11e9-8489-9f36b413d113.gif)
+![14contextmenu](https://user-images.githubusercontent.com/38582562/50581428-f6370a00-0e9c-11e9-8836-0146b468d644.gif)
+
+`Popupmenu---------------------------------------Actionbar---------------------------------------`<br>
+![15popupmenu](https://user-images.githubusercontent.com/38582562/50581430-f6cfa080-0e9c-11e9-8421-1aa44c104cd9.gif)
+![16actionbar](https://user-images.githubusercontent.com/38582562/50581431-f6cfa080-0e9c-11e9-8d2e-f5d98bcbf4dc.gif)

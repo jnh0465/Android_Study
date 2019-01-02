@@ -47,6 +47,8 @@
         </activity>
         <activity android:name=".menu.ActionbarActivity">
         </activity>
+        <activity android:name=".messaging.ToastActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.jiwoolee.android_view.messaging.ToastActivity;
 import com.jiwoolee.android_view.adapterview.CustomadaptActivity;
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity;
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity2;
@@ -170,6 +171,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, ActionbarActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_toast = (Button) findViewById(R.id.button_toast);
+        button_toast.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, ToastActivity.class);
                 startActivity(intent);
             }
         });
