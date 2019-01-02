@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionitem5"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="메뉴5"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/actionitem1"
+        android:title="메뉴1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionitem2"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="메뉴2"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionitem3"
+        android:icon="@android:drawable/btn_star_big_off"
+        android:title="메뉴3"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/actionitem4"
+        android:title="메뉴4"
+        app:showAsAction="ifRoom" />
+</menu>

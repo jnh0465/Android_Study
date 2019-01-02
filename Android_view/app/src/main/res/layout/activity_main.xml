@@ -184,11 +184,11 @@
             android:text="Popup                            Menu" />
 
         <Button
-            android:id="@+id/button444"
+            android:id="@+id/button_actionbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="*Action                           Bar" />
 
     </LinearLayout>
 

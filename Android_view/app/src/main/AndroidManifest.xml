@@ -45,6 +45,8 @@
         </activity>
         <activity android:name=".menu.PopupmenuActivity">
         </activity>
+        <activity android:name=".menu.ActionbarActivity">
+        </activity>
     </application>
 
 </manifest>
