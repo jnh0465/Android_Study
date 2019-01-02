@@ -14,6 +14,7 @@ import com.jiwoolee.android_view.adapterview.TwolinelistviewActivity;
 import com.jiwoolee.android_view.adapterview.ViewpagerActivity;
 import com.jiwoolee.android_view.menu.ContextmenuActivity;
 import com.jiwoolee.android_view.menu.OptionmenuActivity;
+import com.jiwoolee.android_view.menu.PopupmenuActivity;
 import com.jiwoolee.android_view.view.ButtonActivity;
 import com.jiwoolee.android_view.view.CheckboxActivity;
 import com.jiwoolee.android_view.view.EdittextActivity;
@@ -150,6 +151,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, ContextmenuActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_popupmenu = (Button) findViewById(R.id.button_popupmenu);
+        button_popupmenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, PopupmenuActivity.class);
                 startActivity(intent);
             }
         });

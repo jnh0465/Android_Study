@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class OptionmenuActivity extends AppCompatActivity {
     //onCreateOptionsMenu
-    //res-menu
+    //res폴더-menu
     //1/ xml을 이용해==정형화 2/코드를 이용해==유동적
 
     TextView text6;

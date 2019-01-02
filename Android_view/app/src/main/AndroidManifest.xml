@@ -43,6 +43,8 @@
         </activity>
         <activity android:name=".menu.ContextmenuActivity">
         </activity>
+        <activity android:name=".menu.PopupmenuActivity">
+        </activity>
     </application>
 
 </manifest>
