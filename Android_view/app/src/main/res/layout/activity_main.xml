@@ -225,11 +225,11 @@
             android:text="                                  Toast" />
 
         <Button
-            android:id="@+id/button222"
+            android:id="@+id/button_dialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="                                 *Dialog" />
 
         <Button
             android:id="@+id/button333"
