@@ -232,11 +232,11 @@
             android:text="                                 *Dialog" />
 
         <Button
-            android:id="@+id/button333"
+            android:id="@+id/button_notification"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="                                 Notification" />
 
     </LinearLayout>
 
@@ -247,11 +247,11 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button444"
+            android:id="@+id/button_pendingintent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="Pending                           Intent" />
 
         <Button
             android:id="@+id/button555"

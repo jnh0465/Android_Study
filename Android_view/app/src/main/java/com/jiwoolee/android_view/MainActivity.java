@@ -1,5 +1,6 @@
 package com.jiwoolee.android_view;
 
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.jiwoolee.android_view.messaging.DialogActivity;
+import com.jiwoolee.android_view.messaging.NotificationActivity;
+import com.jiwoolee.android_view.messaging.PendingintentActivity;
 import com.jiwoolee.android_view.messaging.ToastActivity;
 import com.jiwoolee.android_view.adapterview.CustomadaptActivity;
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity;
@@ -190,6 +193,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, DialogActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_notification = (Button) findViewById(R.id.button_notification);
+        button_notification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, NotificationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_pendingintent = (Button) findViewById(R.id.button_pendingintent);
+        button_pendingintent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, PendingintentActivity.class);
                 startActivity(intent);
             }
         });
