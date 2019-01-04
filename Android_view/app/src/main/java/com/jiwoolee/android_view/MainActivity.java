@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.jiwoolee.android_view.messaging.DialogActivity;
 import com.jiwoolee.android_view.messaging.NotificationActivity;
 import com.jiwoolee.android_view.messaging.PendingintentActivity;
+import com.jiwoolee.android_view.messaging.StylenotificationActivity;
 import com.jiwoolee.android_view.messaging.ToastActivity;
 import com.jiwoolee.android_view.adapterview.CustomadaptActivity;
 import com.jiwoolee.android_view.adapterview.CustomlistviewActivity;
@@ -211,6 +212,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, PendingintentActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_stylenotification = (Button) findViewById(R.id.button_stylenotification);
+        button_stylenotification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, StylenotificationActivity.class);
                 startActivity(intent);
             }
         });
