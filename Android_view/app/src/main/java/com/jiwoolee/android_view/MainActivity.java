@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.jiwoolee.android_view.messaging.DialogActivity;
+import com.jiwoolee.android_view.messaging.MessagenotificationActivity;
 import com.jiwoolee.android_view.messaging.NotificationActivity;
 import com.jiwoolee.android_view.messaging.PendingintentActivity;
 import com.jiwoolee.android_view.messaging.StylenotificationActivity;
@@ -221,6 +222,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, StylenotificationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_messagenotification = (Button) findViewById(R.id.button_messagenotification);
+        button_messagenotification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, MessagenotificationActivity.class);
                 startActivity(intent);
             }
         });
