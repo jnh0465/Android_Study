@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.jiwoolee.android_back.Permission_Thread.PermissionActivity;
+import com.jiwoolee.android_back.Permission_Thread.ThreadActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         Button button_permission = (Button) findViewById(R.id.button_permission);
         button_permission.setOnClickListener(new View.OnClickListener() {
@@ -24,5 +24,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button button_thread = (Button) findViewById(R.id.button_thread);
+        button_thread.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, ThreadActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

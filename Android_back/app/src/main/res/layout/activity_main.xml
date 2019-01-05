@@ -31,11 +31,11 @@
             android:text="Permission" />
 
         <Button
-            android:id="@+id/button111"
+            android:id="@+id/button_thread"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="Thread" />
 
         <Button
             android:id="@+id/button222"
