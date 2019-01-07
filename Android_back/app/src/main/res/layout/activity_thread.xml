@@ -8,6 +8,31 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thread만 이용한 비동기 처리"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/thread2" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/thread" />
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,4 +52,5 @@
         android:layout_height="wrap_content"
         android:onClick="btn_thread"
         android:text="현재 시간 가져오기" />
+
 </LinearLayout>

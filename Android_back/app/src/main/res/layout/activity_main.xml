@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:accessibilityHeading="true"
-        android:text="Permission and Thread"
+        android:text="Permission and Asynchronous "
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <LinearLayout
@@ -38,7 +38,7 @@
             android:text="Thread" />
 
         <Button
-            android:id="@+id/button222"
+            android:id="@+id/button_333"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -53,26 +53,34 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button333"
+            android:id="@+id/button_444"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="" />
 
         <Button
-            android:id="@+id/button444"
+            android:id="@+id/button_555"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="" />
 
         <Button
-            android:id="@+id/button555"
+            android:id="@+id/button_666"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1)Thread+Handler 2)Asynctask 3)Thread+runOnUiThread()"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
 </LinearLayout>
