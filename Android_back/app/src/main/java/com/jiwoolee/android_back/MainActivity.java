@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.jiwoolee.android_back.Permission_Thread.AsynctaskActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity2;
 import com.jiwoolee.android_back.Permission_Thread.PermissionActivity;
@@ -50,6 +51,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, HandlerActivity2.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_asynctask = (Button) findViewById(R.id.button_asynctask);
+        button_asynctask.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, AsynctaskActivity.class);
                 startActivity(intent);
             }
         });
