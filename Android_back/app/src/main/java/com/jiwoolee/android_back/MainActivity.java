@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity;
+import com.jiwoolee.android_back.Permission_Thread.HandlerActivity2;
 import com.jiwoolee.android_back.Permission_Thread.PermissionActivity;
 import com.jiwoolee.android_back.Permission_Thread.ThreadActivity;
 
@@ -40,6 +41,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, HandlerActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_handler2 = (Button) findViewById(R.id.button_handler2);
+        button_handler2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, HandlerActivity2.class);
                 startActivity(intent);
             }
         });
