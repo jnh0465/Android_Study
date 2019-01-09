@@ -10,6 +10,7 @@ import com.jiwoolee.android_back.Permission_Thread.AsynctaskActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity2;
 import com.jiwoolee.android_back.Permission_Thread.PermissionActivity;
+import com.jiwoolee.android_back.Permission_Thread.RunonuithreadActivity;
 import com.jiwoolee.android_back.Permission_Thread.ThreadActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -60,6 +61,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, AsynctaskActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_runonuithread = (Button) findViewById(R.id.button_runonuithread);
+        button_runonuithread.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, RunonuithreadActivity.class);
                 startActivity(intent);
             }
         });

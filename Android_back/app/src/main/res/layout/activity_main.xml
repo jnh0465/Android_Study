@@ -67,11 +67,11 @@
             android:text="AsyncTask" />
 
         <Button
-            android:id="@+id/button_666"
+            android:id="@+id/button_runonuithread"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="RunOnUi" />
 
     </LinearLayout>
 
