@@ -1,7 +1,7 @@
 # Android_study
 ![finish](https://user-images.githubusercontent.com/38582562/50695280-964c8900-107f-11e9-96ee-1393c18b2bc7.png)
 ___
-#view
+#Android_view/view
 -
 `Button-------------------------------Checkbox------------------------------Progressbar--------------------------`<br>
 <img src="https://user-images.githubusercontent.com/38582562/50535932-63435a80-0b92-11e9-9138-a416568c2266.gif" width="32%">
@@ -14,7 +14,7 @@ ___
 <img src="https://user-images.githubusercontent.com/38582562/50535937-64748780-0b92-11e9-8f66-4492923318d4.gif" width="32%">
 
 ___
-#adapterview
+#Android_view/adapterview
 -
 `Customlist---------------------------Customlist2---------------------------Twolinelist--------------------------`<br>
 <img src="https://user-images.githubusercontent.com/38582562/50557673-cbc53f80-0d2a-11e9-898e-ee4f443fe084.gif" width="32%">
@@ -27,7 +27,7 @@ ___
 <img src="https://user-images.githubusercontent.com/38582562/50557679-ce279980-0d2a-11e9-91e0-06a90747621e.gif" width="32%">
 
 ___
-#menu
+#Android_view/menu
 -
 `Optionmenu------------------Contextmenu-----------------Popupmenu--------------------Actionbar-------------------`<br>
 <img src="https://user-images.githubusercontent.com/38582562/50581427-f59e7380-0e9c-11e9-8489-9f36b413d113.gif" width="24%">
@@ -36,7 +36,7 @@ ___
 <img src="https://user-images.githubusercontent.com/38582562/50581431-f6cfa080-0e9c-11e9-8d2e-f5d98bcbf4dc.gif" width="24%">
 
 ___
-#messaging
+#Android_view/messaging
 -
 `Toast--------------------------------Dialog--------------------------------Notification-------------------------`<br>
 <img src="https://user-images.githubusercontent.com/38582562/50695286-9a78a680-107f-11e9-89cc-067aa7c3d21e.gif" width="32%">
@@ -47,3 +47,16 @@ ___
 <img src="https://user-images.githubusercontent.com/38582562/50695289-9b113d00-107f-11e9-96b4-79f408547209.gif" width="32%">
 <img src="https://user-images.githubusercontent.com/38582562/50695285-99e01000-107f-11e9-9329-3fa11b52e5ae.gif" width="32%">
 <img src="https://user-images.githubusercontent.com/38582562/50695296-9cdb0080-107f-11e9-9500-74ce72b6958f.gif" width="32%">
+
+___
+#Android_back/permission and asynchronous
+-
+`Permission---------------------------Thread--------------------------------Handler_1----------------------------`<br>
+<img src="https://user-images.githubusercontent.com/38582562/50869207-63dfba80-13f6-11e9-9659-0ef77baa3723.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/50869208-63dfba80-13f6-11e9-88f9-b2ae69ea4c0a.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/50869209-64785100-13f6-11e9-8a52-007f6f861d75.gif" width="32%">
+
+`Handler_2----------------------------Asynctask-----------------------------RunOnUi------------------------------`<br>
+<img src="https://user-images.githubusercontent.com/38582562/50869210-64785100-13f6-11e9-870c-c3dc8fc0074e.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/50869211-64785100-13f6-11e9-9769-0874a827bf7b.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/50869212-64785100-13f6-11e9-95cd-7b7f7527a352.gif" width="32%">
