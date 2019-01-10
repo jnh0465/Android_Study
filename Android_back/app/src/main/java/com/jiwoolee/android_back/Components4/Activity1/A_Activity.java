@@ -48,6 +48,20 @@ public class A_Activity extends AppCompatActivity {
         startActivityForResult(intent, C_ACTIVITY);
     }
 
+    public void btn_tod(View view){
+        Intent intent = new Intent(this, D_Activity.class);
+
+        TestClass t1 = new TestClass();
+        t1.data10 = 100;
+        t1.data20 = "A->TestClass(Parcelable)->D";
+
+        // 객체가 가지고 있는 writeToParcel 메서드를 호출한다.
+        intent.putExtra("test1", t1);
+
+        // startActivity(intent);
+        startActivityForResult(intent, D_ACTIVITY);
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
                                     // 분기,     B에서의 ***setResult로 설정한 값, intent 값
@@ -81,6 +95,17 @@ public class A_Activity extends AppCompatActivity {
                 text22.append("value3 : "+value3+"\n");
                 text22.append("value4 : "+value4);
                 break;
+        }
+
+        if(requestCode == D_ACTIVITY){
+            if(resultCode == RESULT_OK){
+                // 객체를 추출한다.
+                TestClass t2 = data.getParcelableExtra("test2");
+
+                text22.setText("D Activity에서 돌아옴 - onActivityResult()\n");
+                text22.append("t2.data10 : " + t2.data10 + "\n");
+                text22.append("t2.data20 : " + t2.data20);
+            }
         }
     }
 }

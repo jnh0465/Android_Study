@@ -8,37 +8,23 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/textView26"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="A Activity"
+        android:text="D Activity"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/textView27"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="btn_tob"
-        android:text="B Activity로(startActivityForResult())" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="btn_toc"
-        android:text="C Activity로(INTENT_DATA)" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="btn_tod"
-        android:text="D Activity로(INTENT_OBJECT(Parcelable))" />
+        android:onClick="btn_intent3"
+        android:text="종료 + intent(object)" />
 </LinearLayout>
