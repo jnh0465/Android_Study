@@ -19,6 +19,8 @@ public class A_Activity extends AppCompatActivity {
     //startActivityForResult()를 이용해 B로 가고 다시 A로 돌아오면 자동으로 onActivityResult() 호출
 
     final int B_ACTIVITY = 1; //액티비티 구분하기 위한 값
+    final int C_ACTIVITY = 2;
+    final int D_ACTIVITY = 3;
 
     TextView text22;
 
@@ -34,6 +36,16 @@ public class A_Activity extends AppCompatActivity {
         Intent intent = new Intent(this, B_Activity.class);
         //startActivity(intent);
         startActivityForResult(intent, B_ACTIVITY);
+    }
+
+    public void btn_toc(View view){
+        //Intent로 데이터 전달
+        Intent intent = new Intent(this, C_Activity.class);
+        intent.putExtra("data1", 100);
+        intent.putExtra("data2", 11.11);
+        intent.putExtra("data3", true);
+        intent.putExtra("data4", "A에서 온 데이터");
+        startActivityForResult(intent, C_ACTIVITY);
     }
 
     @Override
@@ -55,6 +67,19 @@ public class A_Activity extends AppCompatActivity {
                         text22.append("requestCode : RESULT_FIRST_USER");
                         break;
                 }
+                break;
+
+            case C_ACTIVITY:
+                int value1 = data.getIntExtra("value1", 0);
+                double value2 = data.getDoubleExtra("value2", 0.0);
+                boolean value3 = data.getBooleanExtra("value3", false);
+                String value4 = data.getStringExtra("value4");
+
+                text22.setText("C Activity에서 돌아옴 - onActivityResult()\n");
+                text22.append("value1 : "+value1+"\n");
+                text22.append("value2 : "+value2+"\n");
+                text22.append("value3 : "+value3+"\n");
+                text22.append("value4 : "+value4);
                 break;
         }
     }

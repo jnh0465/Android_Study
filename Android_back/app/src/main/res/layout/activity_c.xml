@@ -8,31 +8,23 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/textView24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="A Activity"
+        android:text="C Activity"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/textView25"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="btn_tob"
-        android:text="B Activity로(startActivityForResult())" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="btn_toc"
-        android:text="C Activity로(INTENT_DATA)" />
-
+        android:onClick="btn_intent2"
+        android:text="종료 + intent(data)" />
 </LinearLayout>
