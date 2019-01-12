@@ -83,16 +83,6 @@
         android:text="1)Thread+Handler 2)Asynctask 3)Thread+runOnUiThread()"
         android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="1)Thread+Handler 2)Asynctask 3)Thread+runOnUiThread()"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
-
-
     <TextView
         android:id="@+id/textView15"
         android:layout_width="match_parent"
@@ -137,11 +127,11 @@
             android:text="*Activity_1" />
 
         <Button
-            android:id="@+id/button_222"
+            android:id="@+id/button_activity2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="Activity_2" />
 
         <Button
             android:id="@+id/button_333"
