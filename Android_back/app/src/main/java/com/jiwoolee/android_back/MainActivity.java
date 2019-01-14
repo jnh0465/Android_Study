@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.jiwoolee.android_back.Components4.Activity1.A_Activity;
 import com.jiwoolee.android_back.Components4.Activity2.E_Activity;
+import com.jiwoolee.android_back.Components4.BroadCastActivity;
 import com.jiwoolee.android_back.Permission_Thread.AsynctaskActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity2;
@@ -90,6 +91,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, E_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_broadcast = (Button) findViewById(R.id.button_broadcast);
+        button_broadcast.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, BroadCastActivity.class);
                 startActivity(intent);
             }
         });

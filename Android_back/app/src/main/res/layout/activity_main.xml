@@ -124,21 +124,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="*Activity_1" />
+            android:text="                               *Activity_1" />
 
         <Button
             android:id="@+id/button_activity2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Activity_2" />
+            android:text="                               Activity_2" />
 
         <Button
-            android:id="@+id/button_333"
+            android:id="@+id/button_broadcast"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="                               BroadCast" />
 
     </LinearLayout>
 
