@@ -53,4 +53,10 @@
         android:onClick="btn_iintent"
         android:text="BroadCast 실행(암시적)" />
 
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="363dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/system" />
+
 </LinearLayout>

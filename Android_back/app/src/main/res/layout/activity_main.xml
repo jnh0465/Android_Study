@@ -124,29 +124,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="                               *Activity_1" />
+            android:text="*\nActivity1" />
 
         <Button
             android:id="@+id/button_activity2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="                               Activity_2" />
+            android:text="\nActivity2" />
 
         <Button
             android:id="@+id/button_broadcast"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="                               BroadCast" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+            android:text="Broad\nCast" />
 
         <Button
             android:id="@+id/button_444"
@@ -155,19 +147,6 @@
             android:layout_weight="1"
             android:text="" />
 
-        <Button
-            android:id="@+id/button_555"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="" />
-
-        <Button
-            android:id="@+id/button_666"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="" />
-
     </LinearLayout>
+
 </LinearLayout>

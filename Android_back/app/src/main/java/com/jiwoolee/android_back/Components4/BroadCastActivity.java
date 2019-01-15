@@ -1,7 +1,9 @@
 package com.jiwoolee.android_back.Components4;
 
+import android.Manifest;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +17,11 @@ public class BroadCastActivity extends AppCompatActivity {
 
     TestReceiver tr;
 
+    String [] permission_list = {
+            Manifest.permission.READ_PHONE_STATE,
+            Manifest.permission.RECEIVE_SMS
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +33,8 @@ public class BroadCastActivity extends AppCompatActivity {
             IntentFilter filter = new IntentFilter("com.jiwoolee.br");
             registerReceiver(tr, filter);
         }
+
+        checkPermission();
     }
 
     @Override
@@ -63,5 +72,19 @@ public class BroadCastActivity extends AppCompatActivity {
         sendBroadcast(intent);
 
         //암시적 인텐트(8.0이상_제약사항) -> 코드로
+    }
+
+    public void checkPermission(){
+        //6.0(마시멜로)미만이면 권한이 안되기 때문에 메서드 종료
+        if(Build.VERSION.SDK_INT<Build.VERSION_CODES.M){
+            return;
+        }
+
+        for(String permission : permission_list){
+            int check = checkCallingOrSelfPermission(permission); //허용여부 확인
+            if(check== PackageManager.PERMISSION_DENIED){ //거부상태일 때
+                requestPermissions(permission_list, 0); //사용자에게 권한 허용여부 창 띄우기
+            }
+        }
     }
 }
