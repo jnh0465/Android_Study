@@ -54,11 +54,13 @@
         </receiver>
 
         <activity android:name=".Components4.IPCActivity" />
-
         <service
             android:name=".Components4.IPCService"
             android:enabled="true"
             android:exported="true"></service>
+
+        <activity android:name=".Fragment.FragmentActivity1" />
+
     </application>
 
 </manifest>

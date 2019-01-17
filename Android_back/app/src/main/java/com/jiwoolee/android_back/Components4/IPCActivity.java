@@ -18,7 +18,7 @@ import java.util.List;
 
 public class IPCActivity extends AppCompatActivity {
     //현재 실행중인 서비스에 접속하는 개념
-    
+
     // 접속한 서비스 객체
     IPCService ipc_service = null;
     // 서비스 접속을 관리하는 객체
