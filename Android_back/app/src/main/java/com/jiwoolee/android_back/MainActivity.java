@@ -11,6 +11,7 @@ import com.jiwoolee.android_back.Components4.Activity1.A_Activity;
 import com.jiwoolee.android_back.Components4.Activity2.E_Activity;
 import com.jiwoolee.android_back.Components4.BroadCastActivity;
 import com.jiwoolee.android_back.Components4.IPCActivity;
+import com.jiwoolee.android_back.Fragment.Activitycontroller;
 import com.jiwoolee.android_back.Fragment.FragmentActivity1;
 import com.jiwoolee.android_back.Permission_Thread.AsynctaskActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity;
@@ -121,6 +122,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, FragmentActivity1.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_activitycontroller = (Button) findViewById(R.id.button_activitycontroller);
+        button_activitycontroller.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, Activitycontroller.class);
                 startActivity(intent);
             }
         });

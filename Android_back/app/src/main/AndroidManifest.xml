@@ -60,7 +60,7 @@
             android:exported="true"></service>
 
         <activity android:name=".Fragment.FragmentActivity1" />
-
+        <activity android:name=".Fragment.Activitycontroller" />
     </application>
 
 </manifest>
