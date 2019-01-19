@@ -61,6 +61,8 @@
 
         <activity android:name=".Fragment.FragmentActivity1" />
         <activity android:name=".Fragment.Activitycontroller" />
+        <activity android:name=".Fragment.ListfragmentActivity" />
+
     </application>
 
 </manifest>

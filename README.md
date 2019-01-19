@@ -60,3 +60,16 @@ ___
 <img src="https://user-images.githubusercontent.com/38582562/50869210-64785100-13f6-11e9-870c-c3dc8fc0074e.gif" width="32%">
 <img src="https://user-images.githubusercontent.com/38582562/50869211-64785100-13f6-11e9-9769-0874a827bf7b.gif" width="32%">
 <img src="https://user-images.githubusercontent.com/38582562/50869212-64785100-13f6-11e9-95cd-7b7f7527a352.gif" width="32%">
+
+___
+#Android_back/4 Components of Android
+-
+`activity-----------------------------activity2------------------------------------------------------------------`<br>
+<img src="https://user-images.githubusercontent.com/38582562/51359072-608cb300-1b09-11e9-8411-6cbf8fefbd51.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/51359067-5ec2ef80-1b09-11e9-8ccd-37af079bc6f5.gif" width="32%">
+
+`Broadcast------------------------------------------------------------------IPC----------------------------------`<br>
+<img src="https://user-images.githubusercontent.com/38582562/51359068-5f5b8600-1b09-11e9-8175-fa3f36cdca5a.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/51359069-5f5b8600-1b09-11e9-8d1e-f03a1742bbe5.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/51359070-5f5b8600-1b09-11e9-983a-a36ed61e8561.gif" width="32%">
+
