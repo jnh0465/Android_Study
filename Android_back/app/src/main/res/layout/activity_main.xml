@@ -182,7 +182,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Activity\nController"
+            android:text="*Activity\nController"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <Button
@@ -194,11 +194,12 @@
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <Button
-            android:id="@+id/button_444"
+            android:id="@+id/button_dialfragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="Dial\nFragment"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
 
     </LinearLayout>
 

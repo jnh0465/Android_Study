@@ -12,6 +12,7 @@ import com.jiwoolee.android_back.Components4.Activity2.E_Activity;
 import com.jiwoolee.android_back.Components4.BroadCastActivity;
 import com.jiwoolee.android_back.Components4.IPCActivity;
 import com.jiwoolee.android_back.Fragment.Activitycontroller;
+import com.jiwoolee.android_back.Fragment.DialfragmentActivity;
 import com.jiwoolee.android_back.Fragment.FragmentActivity1;
 import com.jiwoolee.android_back.Fragment.ListfragmentActivity;
 import com.jiwoolee.android_back.Permission_Thread.AsynctaskActivity;
@@ -141,6 +142,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, ListfragmentActivity.class);
+
+                startActivity(intent);
+            }
+        });
+
+        Button button_dialfragment = (Button) findViewById(R.id.button_dialfragment);
+        button_dialfragment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, DialfragmentActivity.class);
                 startActivity(intent);
             }
         });
