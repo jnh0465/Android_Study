@@ -73,3 +73,11 @@ ___
 <img src="https://user-images.githubusercontent.com/38582562/51359069-5f5b8600-1b09-11e9-8d1e-f03a1742bbe5.gif" width="32%">
 <img src="https://user-images.githubusercontent.com/38582562/51359070-5f5b8600-1b09-11e9-983a-a36ed61e8561.gif" width="32%">
 
+___
+#Android_view/fragment
+-
+`Fragment------------------Activitycontroller----------Listfragment-----------------Dialogfragment--------------`<br>
+<img src="https://user-images.githubusercontent.com/38582562/51524487-80a5d480-1e71-11e9-82ae-328973224684.gif" width="24%">
+<img src="https://user-images.githubusercontent.com/38582562/51524488-80a5d480-1e71-11e9-8fbf-85a314f61141.gif" width="24%">
+<img src="https://user-images.githubusercontent.com/38582562/51524489-80a5d480-1e71-11e9-8bef-8b7c8fda2129.gif" width="24%">
+<img src="https://user-images.githubusercontent.com/38582562/51524490-80a5d480-1e71-11e9-90be-a827d54eb0c1.gif" width="24%">

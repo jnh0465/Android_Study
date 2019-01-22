@@ -12,6 +12,8 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -63,6 +65,8 @@
         <activity android:name=".Fragment.Activitycontroller" />
         <activity android:name=".Fragment.ListfragmentActivity" />
         <activity android:name=".Fragment.DialfragmentActivity" />
+
+        <activity android:name=".DataManagement.FileActivity" />
 
     </application>
 
