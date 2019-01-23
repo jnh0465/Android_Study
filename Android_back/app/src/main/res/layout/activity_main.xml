@@ -231,11 +231,11 @@
             android:text="File I / O" />
 
         <Button
-            android:id="@+id/button_222"
+            android:id="@+id/button_db1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text=""
+            android:text="DB_1"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <Button

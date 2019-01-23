@@ -11,6 +11,7 @@ import com.jiwoolee.android_back.Components4.Activity1.A_Activity;
 import com.jiwoolee.android_back.Components4.Activity2.E_Activity;
 import com.jiwoolee.android_back.Components4.BroadCastActivity;
 import com.jiwoolee.android_back.Components4.IPCActivity;
+import com.jiwoolee.android_back.DataManagement.DBActivity;
 import com.jiwoolee.android_back.DataManagement.FileActivity;
 import com.jiwoolee.android_back.Fragment.Activitycontroller;
 import com.jiwoolee.android_back.Fragment.DialfragmentActivity;
@@ -162,6 +163,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, FileActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_db1 = (Button) findViewById(R.id.button_db1);
+        button_db1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, DBActivity.class);
                 startActivity(intent);
             }
         });

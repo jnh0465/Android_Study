@@ -67,6 +67,7 @@
         <activity android:name=".Fragment.DialfragmentActivity" />
 
         <activity android:name=".DataManagement.FileActivity" />
+        <activity android:name=".DataManagement.DBActivity" />
 
     </application>
 
