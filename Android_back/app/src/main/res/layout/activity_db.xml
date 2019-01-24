@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +12,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQL문 사용"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <TextView
         android:id="@+id/textView40"
@@ -22,13 +35,6 @@
         android:text="삽입" />
 
     <Button
-        android:id="@+id/button32"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="btn_DB"
-        android:text="DB 가져오기" />
-
-    <Button
         android:id="@+id/button33"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,4 +47,60 @@
         android:layout_height="wrap_content"
         android:onClick="btn_delete"
         android:text="삭제" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_DB"
+        android:text="DB 가져오기" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="클래스 이용"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_insert_class"
+        android:text="삽입" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_update_class"
+        android:text="수정" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_delete_class"
+        android:text="삭제" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_DB_class"
+        android:text="DB 가져오기" />
+
 </LinearLayout>
+</ScrollView>
