@@ -12,8 +12,8 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -45,7 +45,7 @@
         <receiver
             android:name=".Components4.TestReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
+            android:exported="true" />
         <receiver
             android:name=".Components4.SystemReceiver"
             android:enabled="true"
@@ -56,19 +56,25 @@
         </receiver>
 
         <activity android:name=".Components4.IPCActivity" />
+
         <service
             android:name=".Components4.IPCService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
 
         <activity android:name=".Fragment.FragmentActivity1" />
         <activity android:name=".Fragment.Activitycontroller" />
         <activity android:name=".Fragment.ListfragmentActivity" />
         <activity android:name=".Fragment.DialfragmentActivity" />
-
         <activity android:name=".DataManagement.FileActivity" />
         <activity android:name=".DataManagement.DBActivity" />
+        <activity android:name=".DataManagement.ContentproviderActivity" />
 
+        <provider
+            android:name=".DataManagement.MyContentProvider"
+            android:authorities="jiwoolee.com.contentprovider"
+            android:enabled="true"
+            android:exported="true"></provider>
     </application>
 
 </manifest>

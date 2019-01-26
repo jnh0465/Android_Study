@@ -228,22 +228,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="File I / O" />
+            android:text="File\nI/O" />
 
         <Button
             android:id="@+id/button_db1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="DB"
+            android:text="\nDB"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <Button
-            android:id="@+id/button_333"
+            android:id="@+id/button_contentprovider"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text=""
+            android:text="Content\nProvider"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <Button
