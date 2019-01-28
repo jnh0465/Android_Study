@@ -75,6 +75,11 @@
             android:authorities="jiwoolee.com.contentprovider"
             android:enabled="true"
             android:exported="true"></provider>
+
+        <activity android:name=".DataManagement.XMLActivity" />
+        <activity android:name=".DataManagement.ImageActivity" />
+        <activity android:name=".DataManagement.RegionalizationActivity" />
+
     </application>
 
 </manifest>

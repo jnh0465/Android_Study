@@ -246,14 +246,6 @@
             android:text="Content\nProvider"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
-        <Button
-            android:id="@+id/button_444"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text=""
-            android:textAppearance="@style/TextAppearance.AppCompat" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -261,6 +253,14 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_xml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="\nXML + Image"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <Button
             android:id="@+id/button_555"
@@ -272,22 +272,6 @@
 
         <Button
             android:id="@+id/button_666"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text=""
-            android:textAppearance="@style/TextAppearance.AppCompat" />
-
-        <Button
-            android:id="@+id/button_777"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text=""
-            android:textAppearance="@style/TextAppearance.AppCompat" />
-
-        <Button
-            android:id="@+id/button_888"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
