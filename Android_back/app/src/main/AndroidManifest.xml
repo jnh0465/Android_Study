@@ -77,8 +77,7 @@
             android:exported="true"></provider>
 
         <activity android:name=".DataManagement.XMLActivity" />
-        <activity android:name=".DataManagement.ImageActivity" />
-        <activity android:name=".DataManagement.RegionalizationActivity" />
+        <activity android:name=".DataManagement.ResolutionActivity" />
 
     </application>
 

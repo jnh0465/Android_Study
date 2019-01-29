@@ -263,11 +263,11 @@
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <Button
-            android:id="@+id/button_555"
+            android:id="@+id/button_resolution"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text=""
+            android:text="\nResolution"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <Button

@@ -13,6 +13,7 @@ import com.jiwoolee.android_back.Components4.IPCActivity;
 import com.jiwoolee.android_back.DataManagement.ContentproviderActivity;
 import com.jiwoolee.android_back.DataManagement.DBActivity;
 import com.jiwoolee.android_back.DataManagement.FileActivity;
+import com.jiwoolee.android_back.DataManagement.ResolutionActivity;
 import com.jiwoolee.android_back.DataManagement.XMLActivity;
 import com.jiwoolee.android_back.Fragment.Activitycontroller;
 import com.jiwoolee.android_back.Fragment.DialfragmentActivity;
@@ -191,6 +192,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, XMLActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_resolution = (Button) findViewById(R.id.button_resolution);
+        button_resolution.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, ResolutionActivity.class);
                 startActivity(intent);
             }
         });
