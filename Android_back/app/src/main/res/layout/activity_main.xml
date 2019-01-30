@@ -271,11 +271,11 @@
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
         <Button
-            android:id="@+id/button_666"
+            android:id="@+id/button_screenrotation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text=""
+            android:text="Screen\nRotation"
             android:textAppearance="@style/TextAppearance.AppCompat" />
 
     </LinearLayout>

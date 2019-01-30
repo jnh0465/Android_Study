@@ -14,6 +14,7 @@ import com.jiwoolee.android_back.DataManagement.ContentproviderActivity;
 import com.jiwoolee.android_back.DataManagement.DBActivity;
 import com.jiwoolee.android_back.DataManagement.FileActivity;
 import com.jiwoolee.android_back.DataManagement.ResolutionActivity;
+import com.jiwoolee.android_back.DataManagement.ScreenrotationActivity;
 import com.jiwoolee.android_back.DataManagement.XMLActivity;
 import com.jiwoolee.android_back.Fragment.Activitycontroller;
 import com.jiwoolee.android_back.Fragment.DialfragmentActivity;
@@ -201,6 +202,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, ResolutionActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_screenrotation = (Button) findViewById(R.id.button_screenrotation);
+        button_screenrotation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, ScreenrotationActivity.class);
                 startActivity(intent);
             }
         });
