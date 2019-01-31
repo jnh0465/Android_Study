@@ -20,6 +20,7 @@ import com.jiwoolee.android_back.Fragment.Activitycontroller;
 import com.jiwoolee.android_back.Fragment.DialfragmentActivity;
 import com.jiwoolee.android_back.Fragment.FragmentActivity1;
 import com.jiwoolee.android_back.Fragment.ListfragmentActivity;
+import com.jiwoolee.android_back.Network.SocketActivity;
 import com.jiwoolee.android_back.Permission_Thread.AsynctaskActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity2;
@@ -211,6 +212,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, ScreenrotationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_socket = (Button) findViewById(R.id.button_socket);
+        button_socket.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, SocketActivity.class);
                 startActivity(intent);
             }
         });
