@@ -20,6 +20,7 @@ import com.jiwoolee.android_back.Fragment.Activitycontroller;
 import com.jiwoolee.android_back.Fragment.DialfragmentActivity;
 import com.jiwoolee.android_back.Fragment.FragmentActivity1;
 import com.jiwoolee.android_back.Fragment.ListfragmentActivity;
+import com.jiwoolee.android_back.Network.HttpActivity;
 import com.jiwoolee.android_back.Network.SocketActivity;
 import com.jiwoolee.android_back.Permission_Thread.AsynctaskActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity;
@@ -221,6 +222,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, SocketActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_http = (Button) findViewById(R.id.button_http);
+        button_http.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, HttpActivity.class);
                 startActivity(intent);
             }
         });

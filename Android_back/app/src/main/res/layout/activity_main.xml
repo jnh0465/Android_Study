@@ -316,11 +316,11 @@
             android:text="Socket" />
 
         <Button
-            android:id="@+id/button_222"
+            android:id="@+id/button_http"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="Http" />
 
         <Button
             android:id="@+id/button_333"

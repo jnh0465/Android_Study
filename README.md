@@ -62,7 +62,7 @@ ___
 <img src="https://user-images.githubusercontent.com/38582562/50869212-64785100-13f6-11e9-95cd-7b7f7527a352.gif" width="32%">
 
 ___
-#Android_back/4 Components of Android
+#Android_back/4 components of Android
 -
 `activity-----------------------------activity2------------------------------------------------------------------`<br>
 <img src="https://user-images.githubusercontent.com/38582562/51359072-608cb300-1b09-11e9-8411-6cbf8fefbd51.gif" width="32%">
@@ -81,3 +81,16 @@ ___
 <img src="https://user-images.githubusercontent.com/38582562/51524488-80a5d480-1e71-11e9-8fbf-85a314f61141.gif" width="24%">
 <img src="https://user-images.githubusercontent.com/38582562/51524489-80a5d480-1e71-11e9-8bef-8b7c8fda2129.gif" width="24%">
 <img src="https://user-images.githubusercontent.com/38582562/51524490-80a5d480-1e71-11e9-90be-a827d54eb0c1.gif" width="24%">
+
+___
+#Android_view/data management
+-
+`FileI/O------------------------------DB------------------------------------ContentProvider----------------------`<br>
+<img src="https://user-images.githubusercontent.com/38582562/52061465-b2c1df80-25b1-11e9-862c-a43ce790863b.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/52061466-b2c1df80-25b1-11e9-8973-c1a862b472e3.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/52061467-b2c1df80-25b1-11e9-94cd-904dcf17db9e.gif" width="32%">
+
+`XML----------------------------------Resolution----------------------------Screenrotation-----------------------`<br>
+<img src="https://user-images.githubusercontent.com/38582562/52061462-b2294900-25b1-11e9-9f18-b791d81f4c41.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/52061474-b5243980-25b1-11e9-931b-eafc19176b8e.gif" width="32%">
+<img src="https://user-images.githubusercontent.com/38582562/52061473-b5243980-25b1-11e9-836d-3ad084baaec8.gif" width="32%">
