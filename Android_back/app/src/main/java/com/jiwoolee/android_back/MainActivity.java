@@ -22,6 +22,7 @@ import com.jiwoolee.android_back.Fragment.FragmentActivity1;
 import com.jiwoolee.android_back.Fragment.ListfragmentActivity;
 import com.jiwoolee.android_back.Network.HttpActivity;
 import com.jiwoolee.android_back.Network.SocketActivity;
+import com.jiwoolee.android_back.Network.XMLdocuActivity;
 import com.jiwoolee.android_back.Permission_Thread.AsynctaskActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity;
 import com.jiwoolee.android_back.Permission_Thread.HandlerActivity2;
@@ -231,6 +232,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, HttpActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_xmldocu = (Button) findViewById(R.id.button_xmldocu);
+        button_xmldocu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, XMLdocuActivity.class);
                 startActivity(intent);
             }
         });

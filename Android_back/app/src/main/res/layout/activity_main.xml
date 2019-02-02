@@ -323,11 +323,11 @@
             android:text="Http" />
 
         <Button
-            android:id="@+id/button_333"
+            android:id="@+id/button_xmldocu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="" />
+            android:text="XML" />
 
         <Button
             android:id="@+id/button_444"
