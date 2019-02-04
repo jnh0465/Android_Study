@@ -21,6 +21,7 @@ import com.jiwoolee.android_back.Fragment.DialfragmentActivity;
 import com.jiwoolee.android_back.Fragment.FragmentActivity1;
 import com.jiwoolee.android_back.Fragment.ListfragmentActivity;
 import com.jiwoolee.android_back.Network.HttpActivity;
+import com.jiwoolee.android_back.Network.JsonActivity;
 import com.jiwoolee.android_back.Network.SocketActivity;
 import com.jiwoolee.android_back.Network.XMLdocuActivity;
 import com.jiwoolee.android_back.Permission_Thread.AsynctaskActivity;
@@ -241,6 +242,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(MainActivity.this, XMLdocuActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_json = (Button) findViewById(R.id.button_json);
+        button_json.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(MainActivity.this, JsonActivity.class);
                 startActivity(intent);
             }
         });

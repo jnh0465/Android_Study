@@ -35,11 +35,11 @@ public class MainClass {
 			System.out.printf("data1 : %d\n", data1);
 			System.out.printf("data2 : %f\n", data2);
 			System.out.printf("data3 : %s\n", data3);
-			System.out.printf("data4 : %s\n", 
-					data4);
+			System.out.printf("data4 : %s\n", data4);
 
 			socket.close();
 			server.close();
+			
 		}catch(Exception e){
 			e.printStackTrace();
 		}

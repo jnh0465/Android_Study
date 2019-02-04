@@ -84,6 +84,7 @@
         <activity android:name=".Network.SocketActivity" />
         <activity android:name=".Network.HttpActivity" />
         <activity android:name=".Network.XMLdocuActivity" />
+        <activity android:name=".Network.JsonActivity" />
 
     </application>
 
