@@ -1,5 +1,8 @@
 # Android_study
+`View--------------------------------------------Back-------------------------------------------`<br>
 ![finish](https://user-images.githubusercontent.com/38582562/50695280-964c8900-107f-11e9-96ee-1393c18b2bc7.png)
+![finish](https://user-images.githubusercontent.com/38582562/52194542-b0080880-2897-11e9-99d8-eab87a66ad8b.gif)
+
 ___
 #Android_view/view
 -
@@ -94,3 +97,14 @@ ___
 <img src="https://user-images.githubusercontent.com/38582562/52061462-b2294900-25b1-11e9-9f18-b791d81f4c41.gif" width="32%">
 <img src="https://user-images.githubusercontent.com/38582562/52061474-b5243980-25b1-11e9-931b-eafc19176b8e.gif" width="32%">
 <img src="https://user-images.githubusercontent.com/38582562/52061473-b5243980-25b1-11e9-836d-3ad084baaec8.gif" width="32%">
+
+___
+#Android_view/network
+-
+`Socket------------------------------------------------Http---------------------------------------------------`<br>
+<img src="https://user-images.githubusercontent.com/38582562/52194544-b0a09f00-2897-11e9-9e93-15f4d84ae8bc.gif" width="47%">
+<img src="https://user-images.githubusercontent.com/38582562/52194539-b0080880-2897-11e9-90bd-dfa8e41046cb.gif" width="47%">
+
+`Xml---------------------------------------------------Json---------------------------------------------------`<br>
+<img src="https://user-images.githubusercontent.com/38582562/52194540-b0080880-2897-11e9-8337-3c66fb1d6ef1.gif" width="47%">
+<img src="https://user-images.githubusercontent.com/38582562/52194541-b0080880-2897-11e9-98d2-33cd16634e51.gif" width="47%">
