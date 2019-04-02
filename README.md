@@ -1,4 +1,18 @@
 # Android_study
+181224-190204 / Android
+___
+`기능 : 
+`   
+~~~
+- 
+~~~
+
+~~~
+- 프로젝트 완료 시점 : 19/02/04
+- README 작성 시점 : 19/04/02
+~~~
+___
+
 `View--------------------------------------------Back-------------------------------------------`<br>
 ![finish](https://user-images.githubusercontent.com/38582562/50695280-964c8900-107f-11e9-96ee-1393c18b2bc7.png)
 ![finish](https://user-images.githubusercontent.com/38582562/52194542-b0080880-2897-11e9-99d8-eab87a66ad8b.gif)
